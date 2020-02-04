@@ -1,0 +1,7 @@
+CREATE TABLE movies(
+	mvId CHAR(4) PRIMARY KEY,
+	mvName VARCHAR(20) NOT NULL,
+	mvHero CHAR(10) NOT NULL,
+	releaseDate date NOT NULL,
+	collection DECIMAL(7,2) NOT NULL
+);
